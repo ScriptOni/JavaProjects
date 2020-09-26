@@ -8,7 +8,6 @@ import java.awt.Component;
 import javax.swing.UIManager;
 public class Constants{
 	
-	
 	protected static final String TITLE				= "Peculiar Image Viewer";
 	protected static final String LOGO_URL 			= "assets/logos/peculiar.png"; 
 	protected static final String LOOK_AND_FEEL	= UIManager.getSystemLookAndFeelClassName();
@@ -24,14 +23,10 @@ public class Constants{
 	protected static final boolean IS_VISIBLE		= true;	
 	protected static final boolean UNDECORATED		= false;
 	protected static final boolean RESIZABLE			= true;
-	
-	
-	
-	
+
 	protected static Color BACKGROUND_1COLOR 	= new Color(23,36,39,255);
 	protected static Color BACKGROUND_2COLOR 	= new Color(69,66,56,255);
 	protected  static Color TRANSPARENT 	 	= new Color(0,0,0,0);
-	
 	
 	protected static Font FONT_ROBOTO			= new Font("Roboto",0,14);
 
